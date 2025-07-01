@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+>
+  <welcome-file-list>
+    <welcome-file>home.html</welcome-file>
+  </welcome-file-list>
+  
+ <servlet-context>
+ 	<param-name>url</param-name>
+ 	<param-value>jdbc:mysql://localhost:3306/yashbank</param-value>
+ </servlet-context>
+ 
+ <servlet-context>
+ 	<param-name>user</param-name>
+ 	<param-value>root</param-value>
+ </servlet-context>
+ 
+ <servlet-context>
+ 	<param-name>password</param-name>
+ 	<param-value>Blue@1434</param-value>
+ </servlet-context>
+</web-app>
